@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/thefirstpage/demo01",
     "pages/index/index",
     "pages/logs/logs"
   ],
@@ -10,5 +11,31 @@
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/thefirstpage/demo01",
+      "text": "text",
+      "iconPath": "utils/home(2).png",
+      "selectedIconPath": "utils/home(1).png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "text",
+      "iconPath": "utils/star(2).png",
+      "selectedIconPath": "utils/star(1).png"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "text",
+      "iconPath": "utils/mine(2).png",
+      "selectedIconPath": "utils/mine(1).png"
+      
+    }
+    
+    
+
+  ],
+  "selectedColor":"#f70808"
+  }
 }
